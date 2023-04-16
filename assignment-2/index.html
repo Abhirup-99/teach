@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    body,
+    html {
+      height: 100%;
+      margin: 0;
+      background-color: grey;
+    }
+    .content-box {
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      height: 100%;
+    }
+    .content-container {
+      display: flex;
+      justify-content: flex-end;
+      width: 80%;
+      background-color: rgba(0, 0, 0, 0.4);
+      border-radius: 8px;
+      padding: 20px 40px;
+      column-gap: 20px;
+    }
+    .content {
+      border-radius: 4px;
+      background-color: lightgray;
+      width: 200px;
+      padding: 8px 16px;
+    }
+    .content img {
+      width: 100%;
+    }
+  </style>
+  <body>
+    <div class="content-box">
+      <div class="content-container">
+        <div class="content">
+          <img src="./image.jpg" alt="Image" />
+          <h1>head</h1>
+          <p>text</p>
+        </div>
+        <div class="content">
+          <img src="./image.jpg" alt="Image" />
+          <h1>head</h1>
+          <p>text</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
